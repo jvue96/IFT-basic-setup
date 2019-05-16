@@ -1,7 +1,8 @@
 # IFT-basic-setup
 
 Clone/Fork/Download 
-
+#DO NOT PUSH TO ORIGIN MASTER OR MERGE FOR NOW 
+#MAKE NOTES TO DISCUSS
 CD into draft
 npm run start 
 
