@@ -37,38 +37,40 @@ class Bio extends Component {
         } 
 
         return (
-            <center> 
-                <div> BIO </div>
-                <div>
-                </div>
-                <button 
-                onClick={this.viewSelectedButton('button')}
-                value={"bio"}
-                >FAMILY INFO</button> 
+            <div>
+                <center> 
+                    <div> BIO </div>
+                    <div>
+                    </div>
+                    <button 
+                    onClick={this.viewSelectedButton('button')}
+                    value={"bio"}
+                    >FAMILY INFO</button> 
 
-                <button
-                value={"id"}
-                onClick={this.viewSelectedButton('button')}
-                >IDENTIFICATION</button> 
+                    <button
+                    value={"id"}
+                    onClick={this.viewSelectedButton('button')}
+                    >IDENTIFICATION</button> 
 
-                <button
-                onClick={this.viewSelectedButton('button')}
-                value={"school"}
-                >SCHOOL</button> 
+                    <button
+                    onClick={this.viewSelectedButton('button')}
+                    value={"school"}
+                    >SCHOOL</button> 
 
-                <button
-                onClick={this.viewSelectedButton('button')}
-                value={"housing"}
-                >HOUSING</button> 
+                    <button
+                    onClick={this.viewSelectedButton('button')}
+                    value={"housing"}
+                    >HOUSING</button> 
 
-                <button
-                onClick={this.viewSelectedButton('button')}
-                value={"medical"}
-                >MEDICAL</button> 
-                <br/>
+                    <button
+                    onClick={this.viewSelectedButton('button')}
+                    value={"medical"}
+                    >MEDICAL</button> 
+                    <br/>
 
-                {div}
-            </center>
+                    {div}
+                </center>
+            </div>
         );
     }
 }
