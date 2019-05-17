@@ -22,10 +22,10 @@ import LegalStatusForm from "../AdminViews.js/LegalStatusForm";
 import SocialWorker from "../AdminViews.js/SocialWorker";
 import GroceryForm from "../AdminViews.js/GroceryForm";
 import FundForm from "../AdminViews.js/FundForm";
+import BioFamilyInfo from "../VolunteerViews/BioFamilyInfo";
 
 function App() {
   return (
-   
     <div>
       <Router>
         {/* VOLUNTEER */}
@@ -56,6 +56,9 @@ function App() {
         <Route path="/grocery-form" component={GroceryForm} />
         <Route path="/fund-form" component={FundForm} />
 
+
+        {/* BIO */}
+        <Route path="/bio-family-info" component={BioFamilyInfo} />
       </Router>
     </div>
   );

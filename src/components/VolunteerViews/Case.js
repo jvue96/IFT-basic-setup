@@ -11,8 +11,6 @@ import Events from "./Events";
 
 class Case extends Component {
 
-    
-
     render() {
 
         const { path } = this.props.match;
